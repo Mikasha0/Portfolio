@@ -1,5 +1,5 @@
 import React from "react";
-import { Horse, Heart, Cube } from "phosphor-react";
+import { Horse, Heart, Cube, FacebookLogo } from "phosphor-react";
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
@@ -36,9 +36,7 @@ export default function Navbar() {
               </a>
             </li>
             <div className="social-icons">
-              <Horse />
-              <Heart color="#AE2983" weight="fill" size={32} />
-              <Cube color="teal" weight="duotone" />
+              <FacebookLogo size={32} weight="bold" />
             </div>
           </ul>
           {/* <form className="d-flex" role="search">
