@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -36,10 +36,12 @@ export default function Navbar() {
                 Projects
               </a>
             </li>
-            <div className="social-icons">
-              <FaFacebookF style={{ color: "white" }} />
-            </div>
           </ul>
+          <div className="social-icons">
+            <FaFacebookF className="icons" />
+            <FaInstagram style={{ color: "white" }} />
+            <FaLinkedinIn style={{ color: "white" }} />
+          </div>
           {/* <form className="d-flex" role="search">
             <input
               className="form-control me-2"
