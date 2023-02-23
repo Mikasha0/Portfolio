@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar .container a{
+  color:#fff;
+}
+.navbar .container .collapse ul li a{
+  color:#fff;
+}

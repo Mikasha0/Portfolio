@@ -1,8 +1,9 @@
 import React from "react";
-import { Horse, Heart, Cube, FacebookLogo } from "phosphor-react";
+import { FaFacebookF } from "react-icons/fa";
+
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-dark">
       <div className="container d-flex justify-content-center">
         <a className="navbar-brand" href="/">
           LOGO
@@ -36,7 +37,7 @@ export default function Navbar() {
               </a>
             </li>
             <div className="social-icons">
-              <FacebookLogo size={32} weight="bold" />
+              <FaFacebookF style={{ color: "white" }} />
             </div>
           </ul>
           {/* <form className="d-flex" role="search">
