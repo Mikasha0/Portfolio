@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
 
 export default function Navbar() {
@@ -57,17 +57,17 @@ export default function Navbar() {
             </ul>
             <div className="social-links">
               <div className="icons-container">
-                <a href="">
+                <a href="https://www.facebook.com/aniket.malla.58/">
                   <FaFacebookF className="circular-icon" />
                 </a>
               </div>
               <div className="icons-container">
-                <a href="">
-                  <FaInstagram className="circular-icon" />
+                <a href="https://github.com/Mikasha0">
+                  <FaGithub className="circular-icon" />
                 </a>
               </div>
               <div className="icons-container">
-                <a href="">
+                <a href="https://www.linkedin.com/in/aniket-tamrakar-07857a212/">
                   <FaLinkedinIn className="circular-icon" />
                 </a>
               </div>
