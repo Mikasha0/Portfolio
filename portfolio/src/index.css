@@ -48,6 +48,13 @@ span{
   font-size: 20px;
   color: #fff;
 }
+.btn{
+  border:2px solid white;
+  padding: "10px 20px";
+  border-radius: "5px";
+  background-color: "transparent";
+  color: white;
+}
 .btn-all {
   display: inline-block;
   font-size: 16px;

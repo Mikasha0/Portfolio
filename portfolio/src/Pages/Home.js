@@ -43,22 +43,24 @@ export default function Home() {
       setDelta(500);
     }
   };
+
   return (
     <section className="home">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">
             <span className="tagline">Welcome to my Portfolio</span>
-            <h1>
-              {`Hi I am Aniket Tamrakar`} <span>{text}</span>
-            </h1>
+            <h1>{`Hi I am Aniket Tamrakar`}</h1>
+            <h2>
+              <span>{text}</span>
+            </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
               nemo nihil molestias, at quos repellat consectetur facilis quasi
               aliquid eum voluptas fugit explicabo dolorum facere impedit!
               Eligendi facilis porro voluptas.
             </p>
-            <button className="btn-all">Let's Connect</button>
+            <button className="btn">Let's Connect</button>
           </div>
           <div className="col-12 col-md-6">
             <img
