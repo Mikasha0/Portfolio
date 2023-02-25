@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
   const [loopNum, setLoopNum] = useState(0);
@@ -60,7 +61,10 @@ export default function Home() {
               aliquid eum voluptas fugit explicabo dolorum facere impedit!
               Eligendi facilis porro voluptas.
             </p>
-            <button className="btn">Let's Connect</button>
+            <button className="btn">
+              Let's Connect -
+              <FaArrowRight />
+            </button>
           </div>
           <div className="col-12 col-md-6">
             <img
