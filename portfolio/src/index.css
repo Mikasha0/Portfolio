@@ -11,6 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1{
+  color:white;
+}
+p{
+  color:white;
+}
+span{
+  color: white;
+}
 .sticky-top{
   background-color: black;
 }
@@ -58,9 +67,14 @@ code {
   }
 }
 .header-img{
-  width:400px;
-  height: 400px;
+  width:300px;
+  height: 300px;
 }
-.home .container {
+.home{
+  background-image:url(../public/img/banner-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .container .row .col-12{
   margin-top: 5rem;
 }
