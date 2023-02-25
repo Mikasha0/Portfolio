@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { FaArrowRight } from "react-icons/fa";
+import { FiArrowRightCircle } from "react-icons/fi";
 
 export default function Home() {
   const [loopNum, setLoopNum] = useState(0);
@@ -63,7 +63,7 @@ export default function Home() {
             </p>
             <button className="btn">
               Let's Connect -
-              <FaArrowRight />
+              <FiArrowRightCircle />
             </button>
           </div>
           <div className="col-12 col-md-6 float-image">
