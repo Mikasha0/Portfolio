@@ -24,7 +24,7 @@ code {
   display: flex;
   justify-content: center;
 }
-.icons-container {
+.icons-container a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,4 +60,7 @@ code {
 .header-img{
   width:400px;
   height: 400px;
+}
+.home .container {
+  margin-top: 5rem;
 }

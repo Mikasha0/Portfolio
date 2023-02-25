@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <header className="sticky-top">
+    <header className="fixed-top">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-top py-3 ">
           <a className="navbar-brand" href="index.html">
@@ -42,15 +42,20 @@ export default function Navbar() {
               </li>
             </ul>
             <div className="social-links">
-              {" "}
               <div className="icons-container">
-                <FaFacebookF className="circular-icon" />
+                <a href="">
+                  <FaFacebookF className="circular-icon" />
+                </a>
               </div>
               <div className="icons-container">
-                <FaInstagram className="circular-icon" />
+                <a href="">
+                  <FaInstagram className="circular-icon" />
+                </a>
               </div>
               <div className="icons-container">
-                <FaLinkedinIn className="circular-icon" />
+                <a href="">
+                  <FaLinkedinIn className="circular-icon" />
+                </a>
               </div>
             </div>
           </div>
