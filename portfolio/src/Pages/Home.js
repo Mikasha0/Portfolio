@@ -48,7 +48,7 @@ export default function Home() {
     <section className="home">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 rowStyle">
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Hi I am Aniket Tamrakar`}</h1>
             <h2>

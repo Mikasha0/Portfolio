@@ -88,7 +88,20 @@ span{
   background-image:url(../public/img/banner-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 1.5rem;
 }
 .home .container .row .col-12{
   margin-top: 5rem;
+}
+.rowStyle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:flex-start;
+}
+.tagline{
+  background: linear-gradient(to right, #ff00cc, #333399);
+  padding: 0.3rem 1.5rem 0.5rem;
+  border-radius: 5px;
+
 }
