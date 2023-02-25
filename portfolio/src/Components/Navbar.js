@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { VscAzure } from "react-icons/vsc";
 
 export default function Navbar() {
   useEffect(() => {
@@ -18,8 +19,10 @@ export default function Navbar() {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-top py-3 ">
           <a className="navbar-brand" href="index.html">
-            {/* <!-- <img className="logo" src="./img/logo.webp" alt="..." /> --> */}
-            <span className="">Logo</span>
+            <span className="logo">
+              <VscAzure />
+              niket
+            </span>
           </a>
           <button
             className="navbar-toggler"

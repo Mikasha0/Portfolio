@@ -75,6 +75,9 @@ span{
   color:white;
   border:1px solid white;
 }
+.logo{
+  font-size: 30px;
+}
 @media (min-width: 300px) and (max-width: 992px) {
   .icons-container{
     margin: 0.5rem;
