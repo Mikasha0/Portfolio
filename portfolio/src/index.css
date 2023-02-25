@@ -23,7 +23,7 @@ span{
 .sticky-top{
   background-color: black;
 }
-.sticky-top .container .navbar a {
+.fixed-top .container .navbar a {
   color:white;
 }
 .sticky-top .container .navbar .collapse a{
@@ -49,6 +49,13 @@ span{
   color: #fff;
 }
 .btn{
+  border:2px solid white;
+  padding: "10px 20px";
+  border-radius: "5px";
+  background-color: "transparent";
+  color: white;
+}
+.btn:hover{
   border:2px solid white;
   padding: "10px 20px";
   border-radius: "5px";

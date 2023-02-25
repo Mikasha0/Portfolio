@@ -64,7 +64,7 @@ export default function Home() {
           </div>
           <div className="col-12 col-md-6">
             <img
-              src="../img/header-img.svg"
+              src="../img/pngwing.com.png"
               className="header-img"
               alt="header-img"
             />
