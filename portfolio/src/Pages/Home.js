@@ -66,7 +66,7 @@ export default function Home() {
               <FaArrowRight />
             </button>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 float-image">
             <img
               src="../img/pngwing.com.png"
               className="header-img"

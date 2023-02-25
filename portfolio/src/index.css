@@ -93,6 +93,21 @@ span{
 .home .container .row .col-12{
   margin-top: 5rem;
 }
+.home .container .row .float-image img{
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+  0%{
+    transform: translate(-20px);
+  }
+  50%{
+    transform: translate(20px);
+  }
+  100%{
+    transform: translate(-20px);
+  }
+}
+
 .rowStyle{
   display: flex;
   flex-direction: column;
@@ -103,5 +118,6 @@ span{
   background: linear-gradient(to right, #ff00cc, #333399);
   padding: 0.3rem 1.5rem 0.5rem;
   border-radius: 5px;
+  border: 1px solid white;
 
 }
