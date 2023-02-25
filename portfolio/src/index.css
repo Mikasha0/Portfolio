@@ -122,5 +122,12 @@ span{
   padding: 0.3rem 1.5rem 0.5rem;
   border-radius: 5px;
   border: 1px solid white;
-
+}
+.about .container-fluid .col{
+  text-align: center;
+  border-right: 1px solid rgba(0,0,0.095);
+  padding: 3rem;
+}
+.about .container-fluid .col:nth-of-type(4){
+  border-right: 1px solid transparent;
 }
