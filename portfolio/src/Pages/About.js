@@ -1,5 +1,6 @@
 import React from "react";
 import { GrProjects } from "react-icons/gr";
+import { BiBarChartAlt } from "react-icons/bi";
 export default function About() {
   return (
     <section className="about">
@@ -20,7 +21,7 @@ export default function About() {
             <h2>10 +</h2>
           </div>
           <div class="col">
-            <i class="bi bi-1-square"></i>
+            <BiBarChartAlt className="about-icons" />
             <p>Work Experience</p>
             <h2>1 yrs</h2>
           </div>
