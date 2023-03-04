@@ -9,7 +9,7 @@ export default function About() {
       <div class="container-fluid d-flex justify-content-center py-4">
         <div class="about-us row row-cols-1 row-cols-md-4">
           <div class="col">
-            <AiFillSetting className="about-icons" />
+            <AiFillSetting className="about-icons spin" />
             <p>Languages Learned</p>
             <h2>5 +</h2>
           </div>
@@ -26,7 +26,7 @@ export default function About() {
           </div>
           <div class="col">
             <BiBarChartAlt className="about-icons" />
-            <p>Work Experience</p>
+            <p> Work Experience</p>
             <h2>1 yrs</h2>
           </div>
         </div>
