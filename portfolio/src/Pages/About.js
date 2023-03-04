@@ -7,7 +7,7 @@ import { TfiRocket } from "react-icons/tfi";
 export default function About() {
   return (
     <section className="about">
-      <div class="container-fluid d-flex justify-content-center py-4">
+      <div class="container-fluid d-flex justify-content-center">
         <div class="about-us row row-cols-1 row-cols-md-4">
           <div class="col">
             <AiFillSetting className="about-icons spin" />

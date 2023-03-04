@@ -172,7 +172,7 @@ span{
   }
 }
 .form-info .container{
-  padding: 0 3rem 0;
+  padding: 0 3rem 1rem;
 }
 .form-info .card {
     height: 100%;
@@ -191,6 +191,9 @@ span{
 }
 .info-icon{
   display: flex;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+  align-items: center;
 }
 .form-info .card:has(.info-icon) {
   background: linear-gradient(135deg, #1a1a1a, #333333);
@@ -206,4 +209,6 @@ span{
 .form-info .card .card-body .info-icon a {
   color: #fff;
   font-size: var(--h5-fontsize);
+  text-decoration: none;
+  margin-left: 0.5rem;
 }
