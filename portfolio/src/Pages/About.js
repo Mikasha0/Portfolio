@@ -1,12 +1,15 @@
 import React from "react";
 import { GoTasklist, GoRocket } from "react-icons/go";
 import { BiBarChartAlt } from "react-icons/bi";
+import { AiFillSetting } from "react-icons/ai";
+
 export default function About() {
   return (
     <section className="about">
       <div class="container-fluid d-flex justify-content-center py-4">
         <div class="about-us row row-cols-1 row-cols-md-4">
           <div class="col">
+            <AiFillSetting className="about-icons" />
             <p>Languages Learned</p>
             <h2>5 +</h2>
           </div>
