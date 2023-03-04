@@ -1,7 +1,8 @@
 import React from "react";
-import { GoTasklist, GoRocket } from "react-icons/go";
+import { GoTasklist } from "react-icons/go";
 import { BiBarChartAlt } from "react-icons/bi";
 import { AiFillSetting } from "react-icons/ai";
+import { TfiRocket } from "react-icons/tfi";
 
 export default function About() {
   return (
@@ -19,8 +20,7 @@ export default function About() {
             <h2>20 +</h2>
           </div>
           <div class="col">
-            <i class="bi bi-1-square"></i>
-            <GoRocket className="about-icons" />
+            <TfiRocket className="about-icons bounce" />
             <p>Total Projects Hosted</p>
             <h2>10 +</h2>
           </div>

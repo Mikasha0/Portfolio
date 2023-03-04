@@ -152,3 +152,19 @@ span{
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.bounce {
+  animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
