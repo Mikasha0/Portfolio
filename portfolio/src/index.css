@@ -32,6 +32,14 @@ span{
   border-radius: 0.6rem;
   border: none;
 }
+.section-heading {
+  position: relative;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+.section-heading h2{
+  color:black;
+}
 .sticky-top{
   background-color: black;
 }
@@ -181,20 +189,20 @@ span{
   }
 }
 .form-info .container{
-    padding: 0 3rem 1rem;
+    padding: 0 3rem 2rem;
 }
 .form-info .card {
     height: 100%;
     border: none;
 }
 .form-info .card .card-body {
-  padding: 3rem;
+  padding: 3rem 3rem 0.5rem;
 }
 .form-info .card:has(form) {
   box-shadow: 0px 0px 20px rgba(162, 162, 162, 0.2);
 }
 .form-info .card:has(form) .form-control {
-  font-size: var(--p-h4-fontsize);
+  font-size: 15px;
   border: none;
   border-bottom: 1px solid grey;
 }

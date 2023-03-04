@@ -7,7 +7,6 @@ export default function Contact() {
     <section className="form-info">
       <div className="container">
         <div className="section-heading">
-          <span>CONTACT US</span>
           <h2>Get In Touch</h2>
         </div>
         <div className="row g-0 justify-content-around">
