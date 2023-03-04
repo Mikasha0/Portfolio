@@ -4,11 +4,14 @@ export default function Footer() {
   return (
     <footer
       className="text-center text-lg-start text-white"
-      style={{ backgroundColor: "#1c2331" }}
+      style={{ background: "linear-gradient(135deg, #1a1a1a, #333333)" }}
     >
       <section
         className="d-flex justify-content-between p-4"
-        style={{ backgroundColor: "#61CE70" }}
+        style={{
+          borderBottom: "1px solid white",
+          background: "linear-gradient(135deg, #1a1a1a, #333333)",
+        }}
       >
         <div className=" me-5">
           <h5>
@@ -27,7 +30,7 @@ export default function Footer() {
               boxShadow: "0px 0px 0px 8px  rgb(62 28 131 / 7%)",
             }}
           >
-            <b>Contact Us Today</b>
+            <b style={{ color: "black" }}>Contact Us Today</b>
           </button>
         </div>
       </section>
