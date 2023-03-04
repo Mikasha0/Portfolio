@@ -39,6 +39,9 @@ span{
   display: flex;
   justify-content: center;
 }
+.icons-container{
+  display: flex;
+}
 .icons-container a{
   display: flex;
   justify-content: center;
@@ -167,4 +170,40 @@ span{
   100% {
     transform: translateY(0);
   }
+}
+.form-info .container{
+  padding: 0 3rem 0;
+}
+.form-info .card {
+    height: 100%;
+    border: none;
+}
+.form-info .card .card-body {
+  padding: 3rem;
+}
+.form-info .card:has(form) {
+  box-shadow: 0px 0px 20px rgba(162, 162, 162, 0.2);
+}
+.form-info .card:has(form) .form-control {
+  font-size: var(--p-h4-fontsize);
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.info-icon{
+  display: flex;
+}
+.form-info .card:has(.info-icon) {
+  background: linear-gradient(135deg, #1a1a1a, #333333);
+}
+.form-info .card .card-body .info-icon i {
+  padding: 0.5rem 0.8rem 0.4rem 0.8rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  font-size: var(--h2-fontsize);
+  color: green;
+  background-color: white;
+}
+.form-info .card .card-body .info-icon a {
+  color: #fff;
+  font-size: var(--h5-fontsize);
 }
