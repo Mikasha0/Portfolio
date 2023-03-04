@@ -23,6 +23,15 @@ p{
 span{
   color: white;
 }
+.btn-all {
+  display: inline-block;
+  font-size: 13px;
+  background: linear-gradient(135deg, #1a1a1a, #333333);
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 0.6rem;
+  border: none;
+}
 .sticky-top{
   background-color: black;
 }
@@ -172,7 +181,7 @@ span{
   }
 }
 .form-info .container{
-  padding: 0 3rem 1rem;
+    padding: 0 3rem 1rem;
 }
 .form-info .card {
     height: 100%;
@@ -202,13 +211,13 @@ span{
   padding: 0.5rem 0.8rem 0.4rem 0.8rem;
   margin-right: 1rem;
   border-radius: 50%;
-  font-size: var(--h2-fontsize);
+  font-size: 13px;
   color: green;
   background-color: white;
 }
 .form-info .card .card-body .info-icon a {
   color: #fff;
-  font-size: var(--h5-fontsize);
+  font-size: 15px;
   text-decoration: none;
   margin-left: 0.5rem;
 }
