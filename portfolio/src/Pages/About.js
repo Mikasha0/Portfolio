@@ -1,5 +1,5 @@
 import React from "react";
-import { GrProjects } from "react-icons/gr";
+import { GoTasklist, GoRocket } from "react-icons/go";
 import { BiBarChartAlt } from "react-icons/bi";
 export default function About() {
   return (
@@ -11,12 +11,13 @@ export default function About() {
             <h2>5 +</h2>
           </div>
           <div class="col">
-            <GrProjects style={{ color: "white" }} />
+            <GoTasklist className="about-icons" />
             <p>Completed Projects</p>
             <h2>20 +</h2>
           </div>
           <div class="col">
             <i class="bi bi-1-square"></i>
+            <GoRocket className="about-icons" />
             <p>Total Projects Hosted</p>
             <h2>10 +</h2>
           </div>
