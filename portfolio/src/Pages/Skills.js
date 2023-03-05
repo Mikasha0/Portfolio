@@ -29,7 +29,7 @@ export default function Skills() {
             <div class="card card2">
               <div class="card-body">
                 <div class="icons">
-                  <AiFillHtml5 style={{ backgroundColor: "black" }} />
+                  <i class="bi bi-buildings"></i>
                 </div>
                 <h4>Tax Advisory</h4>
                 <p>
@@ -45,7 +45,7 @@ export default function Skills() {
             <div class="card">
               <div class="card-body">
                 <div class="icons">
-                  <AiFillHtml5 style={{ backgroundColor: "black" }} />
+                  <i class="bi bi-buildings"></i>
                 </div>
                 <h4>Tax Advisory</h4>
                 <p>
@@ -62,7 +62,7 @@ export default function Skills() {
             <div class="card our-services-border">
               <div class="card-body">
                 <div class="icons">
-                  <AiFillHtml5 style={{ backgroundColor: "black" }} />
+                  <i class="bi bi-buildings"></i>
                 </div>
                 <h4>Tax Advisory</h4>
                 <p>
@@ -78,7 +78,7 @@ export default function Skills() {
             <div class="card card2 our-services-border">
               <div class="card-body">
                 <div class="icons">
-                  <AiFillHtml5 style={{ backgroundColor: "black" }} />
+                  <i class="bi bi-buildings"></i>
                 </div>
                 <h4>Tax Advisory</h4>
                 <p>
@@ -94,7 +94,7 @@ export default function Skills() {
             <div class="card our-services-border">
               <div class="card-body">
                 <div class="icons">
-                  <AiFillHtml5 style={{ backgroundColor: "black" }} />
+                  <i class="bi bi-buildings"></i>
                 </div>
                 <h4>Tax Advisory</h4>
                 <p>
