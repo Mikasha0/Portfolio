@@ -1,19 +1,19 @@
 import React from "react";
+import { AiFillHtml5 } from "react-icons/ai";
 
 export default function Skills() {
   return (
     <section class="our-services">
       <div class="container">
         <div class="section-heading">
-          <span>SERVICES OFFERING</span>
-          <h2>Our Services</h2>
+          <h2>Skills</h2>
         </div>
         <div class="row g-0">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card">
               <div class="card-body">
                 <div class="icons">
-                  <i class="bi bi-buildings"></i>
+                  <AiFillHtml5 style={{ backgroundColor: "black" }} />
                 </div>
                 <h4>Tax Advisory</h4>
                 <p>
