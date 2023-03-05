@@ -237,9 +237,13 @@ span{
 }
 .our-services{
   background-color:#000000e5;
+  padding-bottom: 1.5rem;
 }
 .our-services .container{
   padding:0 5rem 0;
+}
+.our-services .container .section-heading h2{
+  color: #fff;
 }
 .our-services .container .row .card{
   border-bottom:1px solid #000;
@@ -252,6 +256,12 @@ span{
   padding-top: 1.5rem;
   background-color: #fff;
   height: 100%;
+}
+.our-services .container .row .card h4{
+  color:#000;
+}
+.our-services .container .row .card p{
+  color:#000;
 }
 .our-services .container .row .card2{
   border-bottom:1px solid #000;
