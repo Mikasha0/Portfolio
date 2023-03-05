@@ -188,6 +188,9 @@ span{
     transform: translateY(0);
   }
 }
+.form-info{
+
+}
 .form-info .container{
     padding: 0 3rem 1.5rem;
 }
@@ -228,4 +231,49 @@ span{
   font-size: 15px;
   text-decoration: none;
   margin-left: 0.5rem;
+}
+.our-services .container{
+  padding:0 5rem 0;
+}
+.our-services .container .row .card{
+  border-bottom:1px solid #00000037;
+  border-top:1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 0%;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+.our-services .container .row .card2{
+  border-bottom:1px solid #00000037;
+  border-top:1px solid transparent;
+  border-left: 1px solid #00000037;
+  border-right: 1px solid #00000037;
+  border-radius: 0%;
+}
+.our-services .container .row .card .icons{
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  font-size: var(--h4-fontsize);
+  background: var(--color-secondary);
+  color: #fff;
+  border-radius: 10%;;
+}
+.our-services .container .row .card h4{
+  padding:1.5rem 0;
+  margin-bottom: 0;
+}
+.our-services .container .row .our-services-border{
+  border-bottom: none;
+}
+@media (width <= 768px) {
+  .our-services .container .row .card{
+    border:1px solid #00000037;
+    border-width: 0 0 1px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 762px){
+  .our-services .container .row .card{
+    border: 1px solid #00000037;
+  }
 }
