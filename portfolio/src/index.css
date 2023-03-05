@@ -235,11 +235,14 @@ span{
   text-decoration: none;
   margin-left: 0.5rem;
 }
+.our-services{
+  background-color:#000000e5;
+}
 .our-services .container{
   padding:0 5rem 0;
 }
 .our-services .container .row .card{
-  border-bottom:1px solid #fff;
+  border-bottom:1px solid #000;
   border-top:1px solid transparent;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
@@ -247,19 +250,21 @@ span{
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.807);
+  background-color: #fff;
+  height: 100%;
 }
 .our-services .container .row .card2{
-  border-bottom:1px solid #fff;
+  border-bottom:1px solid #000;
   border-top:1px solid transparent;
-  border-left: 1px solid#fff;
-  border-right: 1px solid #fff;
+  border-left: 1px solid#000;
+  border-right: 1px solid #000;
   border-radius: 0%;
+  height: 100%;
 }
 .our-services .container .row .card .icons{
   display: inline-block;
   padding: 0.5rem 0.8rem;
-  font-size: var(--h4-fontsize);
+  font-size: 25px;
   background: white;
   color: #fff;
   border-radius: 10%;;
@@ -273,12 +278,12 @@ span{
 }
 @media (width <= 768px) {
   .our-services .container .row .card{
-    border:1px solid #fff;
+    border:1px solid #000;
     border-width: 0 0 1px;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 762px){
   .our-services .container .row .card{
-    border: 1px solid #fff;
+    border: 1px solid #000;
   }
 }
