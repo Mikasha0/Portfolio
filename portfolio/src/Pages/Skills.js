@@ -1,12 +1,15 @@
 import React from "react";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5, AiFillSetting } from "react-icons/ai";
 
 export default function Skills() {
   return (
     <section class="our-services">
       <div class="container">
         <div class="section-heading">
-          <h2>Skills</h2>
+          <h2>
+            <AiFillSetting className="about-icons spin" />
+            Skills
+          </h2>
         </div>
         <div class="row g-0">
           <div class="col-12 col-md-6 col-lg-4">
