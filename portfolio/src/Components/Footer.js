@@ -1,4 +1,5 @@
 import React from "react";
+import { VscAzure } from "react-icons/vsc";
 
 export default function Footer() {
   return (
@@ -38,7 +39,12 @@ export default function Footer() {
         <div className="container-fluid text-center text-md-start mt-5">
           <div className="row mt-3">
             <div className="col-12 col-md-12 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h3>SkillUP</h3>
+              <a className="navbar-brand" href="index.html">
+                <span className="logo">
+                  <VscAzure />
+                  niket
+                </span>
+              </a>{" "}
               <h5>Do You Need Help With Anything?</h5>
               <p style={{ fontSize: "13px" }}>
                 Here you can use rows and columns to organize your footer
